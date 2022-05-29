@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    
+       <input type="text" name="txtvel" id="txtvel">
+        <input type="button" value="verificar" onclick="testar">
+        <div id="res">
+
+        </div>
+        <script>
+            function testa(){
+                var txtvel = window.document.querySelector(`input#txtvel`)
+                var res = window.document.querySelector(`div#res`)
+                var país = parseInt(txtvel.velue)
+                res.innerHTML = `Vivendo no(a) ${país}`
+                if(país == 'Brasil') {
+                    res.innerHTML = 'Voce e brasileiro'
+                } else{
+                    res.innerHTML = 'voce e estrangeiro'
+                }
+                
+            }
+
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3em;
+    font-size: 12pt;
+    font-weight: bold;
+}
+h1, h2{
+    font-family: 'Architects Daughter', cursive;
+}
+input[type=number]{
+    font-size: 12pt;
+}
+input[type=submit]{
+    background-color: green;
+    color: white;
+    font-size: 12pt;
+    padding: 5px;
+}

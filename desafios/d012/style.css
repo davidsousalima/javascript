@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5em;
+}
+button{
+    padding: 30px;
+    font-size: 12pt;
+}
