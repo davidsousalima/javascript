@@ -5,10 +5,10 @@ function fatorial(){
     let c = n
     let fat = 1
     while(c > 1){
-        saida.innerHTML +=`${c}x`
+        saida.innerHTML +=`${c} x `
         fat *= c
         c--
     }
-    saida.innerHTML +=`<strong>${fat.toLocaleString('pt-BR')}</strong>`
+    saida.innerHTML +=`1 = <strong>${fat.toLocaleString('pt-BR')}</strong>`
     
 }
