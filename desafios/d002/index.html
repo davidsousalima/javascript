@@ -5,32 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio boas-vindas</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        button{
-            padding: 30px;
-            font-size: 12pt;
-        }
-        div.bloco{
-            width: 400px;
-            height: 500px;
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="bloco">
         <h1>Boas-vindas</h1>
         <button onclick="iniciar()">Inicie o desafio</button>
-        <script>
-            function iniciar(){
-                let nome = window.prompt("Qual é o seu nome?")
-                let idade = window.prompt(`Olá,${nome} !Quantos anos você tem`)
-                window.alert(`Acabei de conhecer ${nome},que tem ${idade} anos de idade!`)
-            }
-        </script>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>

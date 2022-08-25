@@ -5,33 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antes e Depois</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        button{
-            padding: 30px;
-            font-size: 12pt;
-        }
-        div{
-            width: 400px;
-            height: 500px;
-            margin: auto;
-            padding: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
         <h1>Antes e depois</h1>
         <button onclick="iniciar()">Antecessor e Sucessor</button>
-        <script>
-            function iniciar(){
-                let num = Number(window.prompt("Digite um número inteiro qualquer"))
-                let res = window.alert(`Antes de ${num}, temos o número ${num-1}.
-                Depois de ${num}, temos o número${num+1}`)
-            }
-        </script>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
