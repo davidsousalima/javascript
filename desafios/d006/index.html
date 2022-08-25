@@ -15,20 +15,25 @@
             padding: 30px;
             font-weight: bold;
         }
+        div{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
     </style>
 </head>
 <body>
-    <h1>Conversor de Temperaturas</h1>
-    <button onclick="converter()">Converter</button>
-    <section id="resultado">Clique no botão acima para inciar.</section>
-    <script>
-        function converter(){
-            let c = Number(window.prompt("Digite uma temperatura em C [Celsius]" ))
-            let f = 0
-            
-            
-
-        }
-    </script>
+    <div>
+        <h1>Conversor de Temperaturas</h1>
+        <button onclick="converter()">Converter</button>
+        <section id="resultado">Clique no botão acima para inciar.</section>
+        <script>
+            function converter(){
+                let c = Number(window.prompt("Digite uma temperatura em C [Celsius]" ))
+                let f = c * 1.8 + 32
+                let res = window.alert(f)
+            }
+        </script>
+    </div>
 </body>
 </html>

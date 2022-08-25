@@ -7,10 +7,12 @@ function iniciar(){
     let hora = agora.getHours()
     let minuto = agora.getMinutes()
     let segundo = agora.getSeconds()
-    let res = document.querySelector
-    ('section#resultad')
+    let res = document.querySelector('section#resultad')
+    var meses = ['janeiro','Feveir','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
     res.innerHTML = `<p>Dia:<mark>${dia}</mark></p>`
-    if (mes==0){
+    let mesatual = meses[mes];
+    res.innerHTML += `Mês:<mark>${mesatual}<mark/><br>`
+    /*if (mes==0){
         res.innerHTML += `Mês:<mark>Janeiro<mark/><br>`
     }else if(mes==1){
         res.innerHTML += `Mês:<mark>Fevereiro<mark/><br>`
@@ -35,6 +37,7 @@ function iniciar(){
     }else if(mes==11){
         res.innerHTML += `Mês:<mark>Dezembro<mark/><br>`
     }
+    */
     res.innerHTML +=`Ano:<mark>${ano}</mark><br>`
     if(semana==0){
         res.innerHTML +=`Dia da semana:<mark>Domingo<br></mark>`
