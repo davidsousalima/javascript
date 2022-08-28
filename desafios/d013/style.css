@@ -14,3 +14,15 @@ div{
     height: 500px;
     margin: auto;
 }
+p{
+    font-weight: lighter;
+}
+mark.verm{
+    background-color: red;
+}
+mark.amar{
+    background-color: yellow;
+}
+mark.verd{
+    background-color: green;
+}
